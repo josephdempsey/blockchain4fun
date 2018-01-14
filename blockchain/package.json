@@ -1,0 +1,26 @@
+{
+  "name": "blockchainapi",
+  "version": "1.0.0",
+  "description": "Blockchain test for JS developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && ./node_modules/mocha/bin/_mocha ./**/*.spec.js"
+  },
+  "author": "JosephDempsey",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.3.0",
+    "supertest": "^3.0.0"
+  }
+}
